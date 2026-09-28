@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased font-sans;
+    min-height: 100vh;
+  }
+}
+
+/* Print-optimized styling for evaluation reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-break-before {
+    page-break-before: always;
+  }
+  .print-avoid-break {
+    page-break-inside: avoid;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

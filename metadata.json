@@ -1,0 +1,7 @@
+{
+  "name": "커크패트릭 4단계 교육평가 자동 생성기",
+  "description": "교육 목표와 교육 내용을 바탕으로 반응(1단계), 학습(2단계), 행동(3단계), 결과(4단계) 평가 체계와 설문지, 시험 문제, 현업 적용 관찰지, 비즈니스 ROI 측정 도구를 자동 생성하는 HRD 솔루션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
